@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Autumn destinations
+    </title>
+    <meta charset="UTF-8">  
+    <link rel="stylesheet" href="../CSS/4_seasons.css">
+    <link rel="stylesheet" href="../CSS/simple-grid.css">
+
+    <style>
+        .header {
+            font-family: 'Lato', Helvetica, sans-serif;
+            background-color: #854442;
+            border-radius: 10%;
+
+            margin-top: 1%;
+            color: aliceblue;
+            padding-left: 2%;
+            /* Βάζω περιθώριο στην επικεφαλίδα με χρήση fluid layout*/
+        }
+
+        .footer,
+        h3,
+        h4,
+        h6 {
+
+            background-color: #854442;
+
+            text-align-last: center;
+            /* Βάζω στο κέντρο το κείμενο*/
+            border-radius: 10px;
+            /*Στρογγυλοποιώ τις γωνίες για να αλλάξω το σχήμα του προσκηνίου*/
+            padding-bottom: 5px;
+            color: aliceblue;
+
+
+        }
+
+        div p {
+            border-radius: 10px;
+            background-image: url(../Images/autumn.jpg);
+            background-size: 100%;
+            /*Δίνω σε όλες τις κλάσεις με αντικείμενο p συγκεκριμένο style γραμματοσειράς*/
+            font-style: italic;
+            color: white;
+            text-align-last: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <!-- Γραμμή πλοήγησης -->
+        <a href="index.html"> Home </a>
+        <a href="../HTML/signup_index.html"> Sign up </a>
+        <a href="about.html"> About </a>
+
+    </nav>
+
+
+
+    <h1 class="header">Our Autumn recommendations are..</h1>
+    <!-- Επικεφαλίδα με styling μέσω external css με δημιουργία κλάσης "header" -->
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <figure>
+                    <img class="img_seasons" src="../Images/autumn_index/mount_fuji.jpeg">
+                    <figcaption>Mount Fuji-Japan </figcaption>
+                </figure>
+            </div>
+            <div class="col-6">
+
+                Mount Fuji is easily one of the most iconic sites in Japan,
+                and not only a geographical point but a cultural symbol for
+                the country. Although the unmistakable peak can be spotted
+                from a variety of locations, each vantage
+                point offers its own special view of the often snowy top.
+                <ul>
+                <li> A must-do for hikers and climbers</li>
+                <li>Bullet train ride</li>
+                <li> Beautiful year-round</li>
+                <li> Recognized Globally</li>
+                </ul>
+
+                <p>One of the top winter destinations</p>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <!-- Δεξία στήλη -->
+            <div class="col-6">
+                <figure>
+                    <img src="../Images/autumn_index/ontario_canada.jpeg">
+                    <figcaption>Ontario</figcaption>
+                </figure>
+            </div>
+            <div class="col-6">
+
+                Ontario has it all. Freshwater beaches, awe-inspiring wilderness, and big city fun. You can swim in the
+                clear refreshing water
+                , enjoy Shakespeare in rural Stratford, sail on four of the Great Lakes,
+                or get lost in a wilderness that stretches all the way to the shores of James Bay.
+                <ul>
+                <li> Provincional Parks</li>
+                <li> Lake superior </li>
+                <li> Friendly people</li>
+                <li> National Parks</li>
+            </ul>
+                <p>Ontario is a huge city with endless activities!</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <h3>An autumn quote:</h3>
+
+        <h4>"Autumn is a second spring when every leaf is a flower."</h4>
+
+
+
+        <h6>― Albert Camus</h6>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
